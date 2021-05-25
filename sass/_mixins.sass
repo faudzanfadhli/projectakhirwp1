@@ -13,16 +13,24 @@
         padding-right: 0.5em
         border-radius: 2em
 
-@mixin a
+@mixin btn
+    text-decoration: none
+    border: 0
     color: white
     border-radius: 2em
     background-color: v.$primaryColor
-    padding-left: 1.5em
-    padding-right: 1.5em
+    padding: 0.5em 1.5em // padding: (top_bottom) (left_right)
     font-weight: 500
     font-size: 1rem
     transition: 0.2s
+    border: 1px solid transparent
     &:hover
         color: darken(v.$primaryColor, 50%)
         background-color: transparent
-        border: 2px solid v.$primaryColor
+        border: 1px solid v.$primaryColor
+
+@mixin iconText
+    font-weight: 700
+    color: v.$primaryColor
+    font-size: 0.7rem
+    margin-right: 1em
