@@ -1,8 +1,81 @@
 body {
+  font-family: "Montserrat", sans-serif;
+}
+body::before {
+  content: "";
   background-image: url(../img/bg.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vmax;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.custom-nav #navbarNavDropdown .navbar-nav .nav-item .home {
+  font-weight: 700;
+}
+.custom-nav #navbarNavDropdown .navbar-nav .nav-item .navLink {
+  font-weight: 500;
+}
+.custom-nav #navbarNavDropdown .navbar-nav .nav-item .home, .custom-nav #navbarNavDropdown .navbar-nav .nav-item .navLink {
+  color: #5a5844;
+  margin-left: 1.7em;
+  margin-right: 1.7em;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+.custom-nav #navbarNavDropdown .navbar-nav .nav-item .home:hover, .custom-nav #navbarNavDropdown .navbar-nav .nav-item .navLink:hover {
+  background-color: #5a5844;
+  color: #eaeeed;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 2em;
+}
+
+.main-text {
+  margin-top: 9em;
+  margin-right: 8em;
+}
+.main-text img {
+  width: 60px;
+}
+.main-text span {
+  text-transform: uppercase;
+}
+.main-text h1 {
+  font-weight: 800;
+  font-size: 3.3rem;
+  color: #f8f9f9;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.main-text span, .main-text p {
+  font-weight: 700;
+  color: #5a5844;
+  font-size: 1.3rem;
+}
+.main-text h1, .main-text p {
+  line-height: 1;
+}
+.main-text a {
+  display: inline-block;
+  color: white;
+  border-radius: 2em;
+  background-color: #5a5844;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+.main-text a:hover {
+  color: black;
+  background-color: transparent;
+  border: 2px solid #5a5844;
 }
 
 /*# sourceMappingURL=main.css.map */

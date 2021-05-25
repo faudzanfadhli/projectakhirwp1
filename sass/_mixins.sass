@@ -1,0 +1,28 @@
+@use 'variables' as v
+
+@mixin tbl
+    color: v.$primaryColor
+    margin-left: 1.7em
+    margin-right: 1.7em
+    transition: 0.3s
+    font-size: 1.3rem
+    &:hover
+        background-color: v.$primaryColor
+        color: v.$secondaryColor
+        padding-left: 0.5em
+        padding-right: 0.5em
+        border-radius: 2em
+
+@mixin a
+    color: white
+    border-radius: 2em
+    background-color: v.$primaryColor
+    padding-left: 1.5em
+    padding-right: 1.5em
+    font-weight: 500
+    font-size: 1rem
+    transition: 0.2s
+    &:hover
+        color: darken(v.$primaryColor, 50%)
+        background-color: transparent
+        border: 2px solid v.$primaryColor

@@ -1,0 +1,25 @@
+@use 'variables' as v
+@use 'mixins' as m
+
+.main-text
+    margin-top: 9em
+    margin-right: 8em
+    img
+        width: 60px
+    span
+        text-transform: uppercase
+    h1
+        font-weight: 800
+        font-size: 3.3rem
+        color: lighten(v.$secondaryColor, 5%)
+        text-transform: uppercase
+        white-space: nowrap
+    span, p
+        font-weight: 700
+        color: v.$primaryColor
+        font-size: 1.3rem
+    h1, p
+        line-height: 1
+    a
+        display: inline-block
+        @include m.a
