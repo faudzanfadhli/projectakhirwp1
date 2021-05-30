@@ -8,7 +8,7 @@ body::before {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100vmax;
-  opacity: 0.9;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   bottom: 0;
