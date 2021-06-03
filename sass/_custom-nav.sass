@@ -2,20 +2,19 @@
 @use 'variables' as v
 
 .custom-nav
-    // .navbar-brand
-
+    .navbar-brand
+        img
+            width: 30px
+            height: 30px
     #navbarNavDropdown
         .navbar-nav
             .nav-item
                 .home
                     font-weight: 700
-                    &:hover
-                        // border: 2px solid v.$primaryColor
                 .navLink
                     font-weight: 500
                 .home, .navLink
                     @include m.tbl
-    //             .contact-us-button
-    //                 @include m.tbl
+
     // @media screen and (max-width: 992px)
     //     margin-top: 0

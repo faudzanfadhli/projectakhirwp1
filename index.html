@@ -1,93 +1,322 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="css/main.css">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/main.css">
 
-    <title>D'Body Shop</title>
+  <title>D'Body Shop</title>
 </head>
 
 <body>
-<!-- NavBar -->
-<div class="container my-4">
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent custom-nav">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link home" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navLink" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navLink" href="#">Package</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navLink" href="#">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navLink" href="#">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link navLink dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Tugas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">12201340_Fauzan Fadli</a>
-            <a class="dropdown-item" href="#">12200549_Endang Tri Lestari</a>
-            <a class="dropdown-item" href="#">12200470_Muhammad Syamsuri</a>
-            <a class="dropdown-item" href="#">12201467_Ristiani Masfufah </a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-
-<div class="container">
-    <div class="row main-text justify-content-end">
-        <div class="col-12 col-lg-6">
-            <img id="logo" src="img/logo.png" alt="D'Body Care Center - logo">
-            <span id="instanceName">D'Body Care Center</span>
-            <h1>a healthy heart<br>is a wealthy start.</h1>
-            <p>Buy a wide variety of facial and body care products and beauty products online at the best prices only on D'Body Shop website</p>
-            <br>
-            <a href="#" id="btn">Shop Now</a>
-            <br><br><br><br>
-            <a href="https://www.instagram.com"><img id="icon" src="img/ic-ig.png" alt="Instagram Logo">
-            <span id="iconText">@dbodyshopstore</span></a>
-            <a href="https://line.me"><img id="icon" src="img/ic-line.png" alt="Line Logo">
-            <span id="iconText">D'Body Care Store</span></a>
-            <a href="https://www.facebook.com"><img id="icon" src="img/ic-fb.png" alt="Facebook Logo">
-            <span id="iconText">D'Body Care Store</span></a>
+  <!-- NavBar -->
+  <div class="container my-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent custom-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active home" aria-current="page" href="homepage/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLink" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLink" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navLink" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navLink" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Tugas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="tugas/">12201340_Fauzan Fadli</a></li>
+                <li><a class="dropdown-item" href="#">12200549_Endang Tri Lestari</a></li>
+                <li><a class="dropdown-item" href="#">12200470_Muhammad Syamsuri</a></li>
+                <li><a class="dropdown-item" href="#">12201467_Ristiani Masfufah</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- MainText -->
+  <div class="container">
+    <div class="row main-text justify-content-end">
+      <div class="col-12 col-lg-6">
+        <img id="logo" src="img/logo-new.png" alt="D'Body Care Center - logo">
+        <span id="instanceName">D'Body Care Center</span>
+        <h1>a healthy heart<br>is a wealthy start.</h1>
+        <p>Buy a wide variety of facial and body care products and beauty products online at the best prices only on
+          D'Body Shop website</p>
+        <br>
+        <a href="homepage/index.html" id="btn">Shop Now</a>
+        <br><br><br><br>
+        <a href="https://www.instagram.com"><img id="icon" src="img/ic-ig.png" alt="Instagram Logo">
+          <span id="iconText">@dbodyshopstore</span></a>
+        <a href="https://line.me"><img id="icon" src="img/ic-line.png" alt="Line Logo">
+          <span id="iconText">D'Body Care Store</span></a>
+        <a href="https://www.facebook.com"><img id="icon" src="img/ic-fb.png" alt="Facebook Logo">
+          <span id="iconText">D'Body Care Store</span></a>
+      </div>
     </div>
-</div>
+  </div>
+  <p class="text-end"><a class="attr" href='https://www.freepik.com/psd/mockup'>Mockup psd created by freepik -
+      www.freepik.com</a></p>
+  <svg class="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" fill-opacity="1"
+      d="M0,96L34.3,117.3C68.6,139,137,181,206,181.3C274.3,181,343,139,411,133.3C480,128,549,160,617,181.3C685.7,203,754,213,823,208C891.4,203,960,181,1029,186.7C1097.1,192,1166,224,1234,229.3C1302.9,235,1371,213,1406,202.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+    </path>
+  </svg>
 
-    <h1>Hello, world!</h1>
+  <!-- About -->
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col text-center mb-3">
+        <h2>About Us</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center fs-5 text-center">
+      <div class="col-md-4">
+        <p>D'Body Shop brings beauty products from the best natural ingredients. Each product is made from high quality
+          natural ingredients so that everyone can have young, healthy and beautiful skin.</p>
+      </div>
+      <div class="col-md-4">
+        <p>Get a variety of D'body shop products and enjoy the following facilitie for free Shipping, cash on delivery
+          all over Jabodetabek. Also get various kinds of skincare promos up to 40% that you shouldn't miss! Enjoy a
+          variety of attractive promos from Payday on D'body Shop</p>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#dcd0b8" fill-opacity="1"
+      d="M0,32L40,53.3C80,75,160,117,240,144C320,171,400,181,480,165.3C560,149,640,107,720,106.7C800,107,880,149,960,186.7C1040,224,1120,256,1200,245.3C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+    </path>
+  </svg>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Products -->
+  <section id="products">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col text-center">
+          <h2>Our Products</h2>
+        </div>
+      </div>
+      <div class="row flex-row flex-nowrap overflow-auto">
+        <!-- justify-content-evenly -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro1.jpeg" class="card-img-top" alt="Product_1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro2.jpg" class="card-img-top" alt="Product_2">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro3.jpeg" class="card-img-top" alt="Product_3">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro4.png" class="card-img-top" alt="Product_4">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro5.jpeg" class="card-img-top" alt="Product_5">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro6.jpg" class="card-img-top" alt="Product_6">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro7.png" class="card-img-top" alt="Product_7">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro8.jpg" class="card-img-top" alt="Product_8">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/pro9.png" class="card-img-top" alt="Product_9">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/scarlett-whitening-body-lotion-scarlet-whitening-body-lotion.jpg" class="card-img-top"
+              alt="Product_10">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/sleeping-mask.jpg" class="card-img-top" alt="Product_11">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="products/bioderma-sensibio-light-cream-40ml.jpg" class="card-img-top" alt="Product_***">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,32L40,37.3C80,43,160,53,240,64C320,75,400,85,480,96C560,107,640,117,720,106.7C800,96,880,64,960,48C1040,32,1120,32,1200,42.7C1280,53,1360,75,1400,85.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- Packages -->
+  <section id="packages">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col text-center">
+          <h2>Packages For You</h2>
+        </div>
+      </div>
+      <div class="row flex-row flex-nowrap overflow-auto">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="packages/pack1.jpg" class="card-img-top" alt="Package_1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="packages/pack2.jpeg" class="card-img-top" alt="Package_2">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="packages/pack3.jpg" class="card-img-top" alt="Package_2">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#5a5844" fill-opacity="1"
+        d="M0,192L48,197.3C96,203,192,213,288,213.3C384,213,480,203,576,186.7C672,171,768,149,864,165.3C960,181,1056,235,1152,250.7C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <footer class="text-center">
+    Copyright &copy; D'Body Shop 2021
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  -->
 </body>
+
 </html>
