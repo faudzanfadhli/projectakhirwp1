@@ -9,6 +9,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     background-image: url(../img/bg-new.png);
+    width: 768px;
   }
 }
 body .wave1 {
