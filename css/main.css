@@ -6,6 +6,11 @@ body {
   background-repeat: no-repeat;
   background-size: 100vmax;
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../img/bg-new.png);
+  }
+}
 body .wave1 {
   margin-top: -8em;
 }
