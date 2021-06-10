@@ -178,6 +178,7 @@ body #packages, body #products {
   transition: 0.3s;
   border-radius: 10px;
   display: inline-block;
+  width: 200px;
 }
 .card:hover {
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
@@ -190,7 +191,7 @@ body #packages, body #products {
 }
 
 .container {
-  text-align: center;
+  text-align: justify;
   line-height: 1;
 }
 .container .nb {
