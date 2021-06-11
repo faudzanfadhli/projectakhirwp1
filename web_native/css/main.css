@@ -36,6 +36,7 @@ body #packages, body #products {
   text-align: center;
   background-color: #eaeeed;
   font-weight: 700;
+  vertical-align: text-top;
 }
 .topnav a.active:hover {
   color: #a9a78e;
