@@ -131,6 +131,7 @@ body .container .menu ul a {
     justify-content: center;
   }
   body .container header .hero h2, body .container header .hero p {
+    text-shadow: 4px 4px 4px white;
     display: block;
     padding: 5px;
     margin-bottom: 5px;
@@ -164,7 +165,7 @@ body .container .menu ul a {
     transform: translateY(-100%);
     transition: 1s;
     opacity: 0;
-    width: 40%;
+    width: 55%;
   }
   body .container .menu ul.slide {
     transform: translateY(0);
