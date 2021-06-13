@@ -24,7 +24,7 @@ body .container header {
 body .container header .hero {
   grid-area: hero;
   min-height: 300px;
-  background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack7.jpg");
+  background-image: url("../packages/pack7.jpg");
   background-size: cover;
   background-position: center;
   padding: 50px;
@@ -40,12 +40,12 @@ body .container header .features {
 }
 body .container header .features-1 {
   grid-area: features-1;
-  background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack8.jpg");
+  background-image: url("../packages/pack8.jpg");
   background-size: cover;
 }
 body .container header .features-2 {
   grid-area: features-2;
-  background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack4.jpg");
+  background-image: url("../packages/pack4.jpg");
   background-size: cover;
 }
 body .container header .features-1 .item, body .container header .features-2 .item {
