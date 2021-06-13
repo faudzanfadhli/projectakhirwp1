@@ -131,7 +131,7 @@ body .container .menu ul a {
     justify-content: center;
   }
   body .container header .hero h2, body .container header .hero p {
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
     display: block;
     padding: 5px;
     margin-bottom: 5px;
