@@ -35,7 +35,7 @@ body .container header .hero h2, body .container header .hero p {
 body .container header .features {
   place-content: center;
   text-align: center;
-  color: white;
+  color: black;
   display: grid;
 }
 body .container header .features-1 {
@@ -152,7 +152,6 @@ body .container .menu ul a {
     display: flex;
   }
   body .container .menu ul {
-    margin-top: 20px;
     background-color: black;
     position: absolute;
     flex-direction: column;
