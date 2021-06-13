@@ -1,339 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'Body Shop Store</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <div class="topnav" id="myTopnav">
-        <a href="../index.html" class="active"><img src="../img/logo.png" alt="D'Body Shop Store">D'Body Shop Store</a>
-        <div class="topnav-right">
-            <a href="#packages">Packages</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merch</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="hero">
+          <h2 class="heading">D'Body Shop Store</h2>
+          <p class="sub-heading">Body Care</p>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
+        <div class="features features-1">
+          <h4 class="item">Body Scrub</h4>
+          <p class="price">IDR 799K</p>
+        </div>
+        <div class="features features-2">
+          <h4 class="item">Hair Vitamin</h4>
+          <p class="price">IDR 199K</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h2>D'Body Shop Store</h2>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
     </div>
-
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 9</div>
-            <img src="../homepage/img/slider1.jpg">
-            <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 9</div>
-            <img src="../homepage/img/slider2.jpg">
-            <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 9</div>
-            <img src="../homepage/img/slider3.jpg">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 9</div>
-            <img src="../homepage/img/slider4.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">5 / 9</div>
-            <img src="../homepage/img/slider5.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">6 / 9</div>
-            <img src="../homepage/img/slider6.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">7 / 9</div>
-            <img src="../homepage/img/slider7.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">8 / 9</div>
-            <img src="../homepage/img/slider8.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">9 / 9</div>
-            <img src="../homepage/img/slider9.jpg">
-            <div class="text">Caption Four</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-    </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div> -->
-
-    <h2>For you ✨</h2>
-    <div id="products">
-        <div class="card">
-            <img src="../products/pro1.jpeg" alt="Products 1">
-            <div class="container">
-                <span class="nb">Cleaning Mask</span><br>
-                <span>Rp152.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro2.jpg" alt="Products 2">
-            <div class="container">
-                <span class="nb">Eye Cream</span><br>
-                <span>Rp205.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro3.jpeg" alt="Products 3">
-            <div class="container">
-                <span class="nb">Haircare Vitamin</span><br>
-                <span>Rp215.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro4.png" alt="Products 4">
-            <div class="container">
-                <span class="nb">Mugwort Masker</span><br>
-                <span>Rp85.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro5.jpeg" alt="Products 5">
-            <div class="container">
-                <span class="nb">Hair Mask</span><br>
-                <span>Rp180.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro6.jpg" alt="Products 6">
-            <div class="container">
-                <span class="nb">Aloe Vera Moisturizer</span><br>
-                <span>Rp299.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro7.png" alt="Products 7">
-            <div class="container">
-                <span class="nb">Body Scrub</span><br>
-                <span>Rp399.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/pro8.jpg" alt="Products 8">
-            <div class="container">
-                <span class="nb">Face Scrub</span><br>
-                <span>Rp425.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/bioderma-sensibio-light-cream-40ml.jpg" alt="Products 9">
-            <div class="container">
-                <span class="nb">Bioderma Moisturizer</br>for Sensitive Skin</span><br>
-                <span>Rp79.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/scarlett-whitening-body-lotion-scarlet-whitening-body-lotion.jpg" alt="Products 10">
-            <div class="container">
-                <span class="nb">Body Lotion</span><br>
-                <span>Rp75.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../products/sleeping-mask.jpg" alt="Products 11">
-            <div class="container">
-                <span class="nb">Sleeping Mask</span><br>
-                <span>Rp289.000</span>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <h2>Packages for all needed</h2>
-    <div id="packages">
-        <div class="card">
-            <img src="../packages/pack1.jpg" alt="Package 1">
-            <div class="container">
-                <span class="nb">Skinker</span><br>
-                <span>Rp5.000.000</span>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <img src="../packages/pack2.jpeg" alt="Package 2">
-            <div class="container">
-                <span class="nb">Exflo Avoskin</span><br>
-                <span>Rp499.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack3.jpg" alt="Package 3">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack4.jpg" alt="Package 4">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack5.jpg" alt="Package 5">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack6.jpg" alt="Package 6">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack7.jpg" alt="Package 7">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="../packages/pack8.jpg" alt="Package 8">
-            <div class="container">
-                <span class="nb">Glow Lacoco</span><br>
-                <span>Rp799.000</span>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Topnav responsive
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
-        // Slideshow
-        /* var slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        } */
-
-        // Automatic Slideshow
-        var slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 4000); // Change image every 4 seconds
-        }
-
-        // Multiple Slideshow
-        /* var slideIndex = [1, 1];
-        // Class the members of each slideshow group with different CSS classes
-        var slideId = ["mySlides1", "mySlides2"]
-        showSlides(1, 0);
-        showSlides(1, 1);
-
-        function plusSlides(n, no) {
-            showSlides(slideIndex[no] += n, no);
-        }
-
-        function showSlides(n, no) {
-            var i;
-            var x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) { slideIndex[no] = 1 }
-            if (n < 1) { slideIndex[no] = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex[no] - 1].style.display = "block";
-        } */
-    </script>
-</body>
-
+    <script src="../js/web_native.js"></script>
+  </body>
 </html>

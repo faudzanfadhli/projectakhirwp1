@@ -21,3 +21,5 @@ index(bootstrap4).html
 tugas/
 css/main.csssass
 css/main.csssass.map
+web_native/sass/_topnav.sass
+web_native/sass/_nav.sass

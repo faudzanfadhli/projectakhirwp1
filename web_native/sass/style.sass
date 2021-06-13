@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap')
+
+*
+    margin: 0
+    padding: 0
+
+body
+    background-color: #ddd
+    font-size: 18px
+    font-family: 'Oswald', Arial, Helvetica, sans-serif
+    margin: 50px
+    .container
+        display: grid
+        gap: 10px
+        img
+            width: 100%
+        header
+            display: grid
+            grid-template-areas: "hero hero features-1" "hero hero features-2"
+            .hero
+                grid-area: hero
+                min-height: 300px
+                background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack7.jpg")
+                background-size: cover
+                background-position: center
+                padding: 50px
+                h2, p
+                    display: none
+            .features
+                // justify-content: center
+                // align-content: center
+                place-content: center // Shorthand from above properties
+                text-align: center
+                color: white
+                display: grid
+            .features-1
+                grid-area: features-1
+                background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack8.jpg")
+                background-size: cover
+            .features-2
+                grid-area: features-2
+                background-image: url("../../../../xampp/htdocs/belajar_web/wp/projectakhirwp1/packages/pack4.jpg")
+                background-size: cover
+            .features-1, .features-2
+                .item
+                    font-size: 2em
+                    font-weight: 200
+        .menu
+            order: -1
+            display: grid
+            grid-template-columns: 1fr 2fr
+            align-items: center
+            .menu-toggle
+                display: none
+                flex-direction: column
+                height: 20px
+                justify-content: space-between
+                position: relative
+                z-index: 2
+                input
+                    position: absolute
+                    width: 28px
+                    height: 28px
+                    left: 0px
+                    top: 0px
+                    opacity: 0
+                    cursor: pointer
+                    z-index: 2
+                input:checked ~ span:nth-child(2)
+                    transform: rotate(45deg) translate(-1px, -1px)
+                    background-color: white
+                input:checked ~ span:last-child
+                    transform: rotate(-45deg) translate(-1px, 0px)
+                    background-color: white
+                input:checked ~ span:nth-child(3)
+                    transform: scale(0)
+                    background-color: white
+                span
+                    display: block
+                    width: 28px
+                    height: 3px
+                    border-radius: 5px
+                    background-color: black
+                    transition: all 0.5s
+                span:nth-child(2)
+                    transform-origin: 0 0
+                span:last-child
+                    transform-origin: 0 100%
+            .brand
+                font-size: 1.2em
+                color: #333
+            ul
+                list-style: none
+                display: grid
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+                gap: 5px
+                a
+                    display: block
+                    text-decoration: none
+                    color: white
+                    background-color: black
+                    text-align: center
+                    padding: 5px
+                    text-transform: uppercase
+                    font-size: 0.9em
+
+@media (max-width: 768px)
+    body
+        .container
+            header
+                .hero
+                    display: flex
+                    flex-direction: column
+                    align-items: start
+                    justify-content: center
+                    h2, p
+                        display: block
+                        padding: 5px
+                        margin-bottom: 5px
+            .menu
+                order: inherit
+                grid-template-columns: 1fr
+                .brand
+                    display: none
+@media screen and ( max-width: 576px )
+    body
+        .container
+            .menu
+                order: -1
+                justify-items: end
+                .menu-toggle
+                    display: flex
+                ul
+                    margin-top: 20px
+                    background-color: black
+                    position: absolute
+                    flex-direction: column
+                    top: 0
+                    right: 0
+                    height: 100vh
+                    align-items: center
+                    justify-content: space-evenly
+                    z-index: 1
+                    transform: translateY(-100%)
+                    transition: 1s
+                    opacity: 0
+                    width: 40%
+                ul.slide
+                    transform: translateY(0)
+                    opacity: 1
