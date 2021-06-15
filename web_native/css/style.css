@@ -35,7 +35,6 @@ body .container header .hero h2, body .container header .hero p {
 body .container header .features {
   place-content: center;
   text-align: center;
-  color: black;
   display: grid;
 }
 body .container header .features-1 {
@@ -48,7 +47,12 @@ body .container header .features-2 {
   background-image: url("../../packages/pack4.jpg");
   background-size: cover;
 }
-body .container header .features-1 .item, body .container header .features-2 .item {
+body .container header .features-1 a, body .container header .features-2 a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+body .container header .features-1 a .item, body .container header .features-2 a .item {
   font-size: 2em;
   font-weight: 200;
 }
@@ -145,16 +149,140 @@ body .container .categories .category p {
   font-weight: 200;
   font-size: 1em;
 }
-body .container .products {
+body .container #products {
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 5px;
 }
-body .container .products h2 {
+body .container #products h2 {
   grid-column: 1/-1;
   text-align: center;
   margin-bottom: 20px;
+}
+body .container #products .prod {
+  place-content: center;
+  text-align: center;
+  display: grid;
+  display: block;
+  background-position: center;
+  border: 1px solid black;
+}
+body .container #products .prod:hover {
+  background-size: cover;
+}
+body .container #products a {
+  color: black;
+  text-decoration: none;
+  opacity: 0;
+  display: block;
+  padding: 100px 0px;
+  text-shadow: 2px 2px 2px white;
+}
+body .container #products a:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: 0.5s all ease;
+}
+body .container #products .prod-1 {
+  background-image: url("../../products/pro1.jpeg");
+}
+body .container #products .prod-2 {
+  background-image: url("../../products/pro2.jpg");
+}
+body .container #products .prod-3 {
+  background-image: url("../../products/pro3.jpeg");
+}
+body .container #products .prod-4 {
+  background-image: url("../../products/pro4.png");
+}
+body .container #products .prod-5 {
+  background-image: url("../../products/pro5.jpeg");
+}
+body .container #products .prod-6 {
+  background-image: url("../../products/pro6.jpg");
+}
+body .container #products .prod-7 {
+  background-image: url("../../products/pro7.png");
+}
+body .container #products .prod-8 {
+  background-image: url("../../products/pro8.jpg");
+}
+body .container #products .prod-9 {
+  background-image: url("../../products/bioderma-sensibio-light-cream-40ml.jpg");
+}
+body .container #products .prod-10 {
+  background-image: url("../../products/scarlett-whitening-body-lotion-scarlet-whitening-body-lotion.jpg");
+}
+body .container #products .prod-11 {
+  background-image: url("../../products/sleeping-mask.jpg");
+}
+body .container #packages {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5px;
+}
+body .container #packages h2 {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .container #packages .pack {
+  place-content: center;
+  text-align: center;
+  display: grid;
+  display: block;
+  background-position: center;
+  border: 1px solid black;
+}
+body .container #packages .pack:hover {
+  background-size: cover;
+}
+body .container #packages a {
+  color: black;
+  text-decoration: none;
+  opacity: 0;
+  display: block;
+  padding: 100px 0px;
+  text-shadow: 2px 2px 2px white;
+}
+body .container #packages a:hover {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: 0.5s all ease;
+}
+body .container #packages .pack-1 {
+  background-image: url("../../packages/pack1.jpg");
+}
+body .container #packages .pack-2 {
+  background-image: url("../../packages/pack2.jpeg");
+}
+body .container #packages .pack-3 {
+  background-image: url("../../packages/pack3.jpg");
+}
+body .container #packages .pack-4 {
+  background-image: url("../../packages/pack4.jpg");
+}
+body .container #packages .pack-5 {
+  background-image: url("../../packages/pack5.jpg");
+}
+body .container #packages .pack-6 {
+  background-image: url("../../packages/pack6.jpg");
+}
+body .container #packages .pack-7 {
+  background-image: url("../../packages/pack7.jpg");
+}
+body .container #packages .pack-8 {
+  background-image: url("../../packages/pack8.jpg");
+}
+body .container #about {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+body .container #about h2 {
+  grid-column: 1/-1;
 }
 
 @media (max-width: 768px) {
