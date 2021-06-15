@@ -281,8 +281,23 @@ body .container #about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-body .container #about h2 {
+body .container #about h2, body .container #about p {
   grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .container #about h2 {
+  margin-bottom: 20px;
+}
+body .container #about .btn {
+  grid-column: 1/-1;
+  margin: auto;
+}
+body .container #about .btn button {
+  margin: 0 15px;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 15px;
 }
 
 @media (max-width: 768px) {
@@ -332,6 +347,20 @@ body .container #about h2 {
   body .container .menu ul.slide {
     transform: translateY(0);
     opacity: 1;
+  }
+  body .container #products .prod, body .container #packages .prod {
+    background-size: cover;
+  }
+  body .container #products a, body .container #packages a {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  body .container #products a h4, body .container #products a p, body .container #packages a h4, body .container #packages a p {
+    font-size: 1.5em;
+  }
+  body .container #about .btn button:nth-child(3), body .container #about .btn button:last-child {
+    font-size: 0.65em;
+    margin-top: 20px;
   }
 }
 
