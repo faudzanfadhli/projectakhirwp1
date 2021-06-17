@@ -320,6 +320,16 @@ body .container #about .btn button {
   body .container .menu .brand {
     display: none;
   }
+  body .container #products .prod, body .container #products .pack, body .container #packages .prod, body .container #packages .pack {
+    background-size: cover;
+  }
+  body .container #products a, body .container #packages a {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  body .container #products a h4, body .container #products a p, body .container #packages a h4, body .container #packages a p {
+    font-size: 1.5em;
+  }
 }
 @media screen and (max-width: 576px) {
   body .container .menu {
@@ -348,7 +358,7 @@ body .container #about .btn button {
     transform: translateY(0);
     opacity: 1;
   }
-  body .container #products .prod, body .container #packages .prod {
+  body .container #products .prod, body .container #products .pack, body .container #packages .prod, body .container #packages .pack {
     background-size: cover;
   }
   body .container #products a, body .container #packages a {

@@ -258,6 +258,14 @@ body
                 grid-template-columns: 1fr
                 .brand
                     display: none
+            #products, #packages
+                .prod, .pack
+                    background-size: cover
+                a
+                    opacity: 1
+                    background-color: rgba(255, 255, 255, 0.25)
+                    h4, p
+                        font-size: 1.5em
 
 @media screen and ( max-width: 576px )
     body
@@ -285,7 +293,7 @@ body
                     transform: translateY(0)
                     opacity: 1
             #products, #packages
-                .prod
+                .prod, .pack
                     background-size: cover
                 a
                     opacity: 1
