@@ -299,6 +299,10 @@ body .container #about .btn button {
   border-radius: 100px;
   padding: 15px;
 }
+body .container #about .btn a {
+  text-decoration: none;
+  color: black;
+}
 
 @media (max-width: 768px) {
   body .container header .hero {
@@ -374,7 +378,7 @@ body .container #about .btn button {
   body .container #products a h4, body .container #products a p, body .container #packages a h4, body .container #packages a p {
     font-size: 1.5em;
   }
-  body .container #about .btn button:nth-child(3), body .container #about .btn button:last-child {
+  body .container #about .btn button:nth-child(3), body .container #about .btn button:last-child, body .container #about .btn button:nth-child(2) {
     font-size: 0.65em;
     margin-top: 20px;
   }
