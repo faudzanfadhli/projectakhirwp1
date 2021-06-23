@@ -345,11 +345,14 @@ body .container #about .btn a {
   }
 }
 @media screen and (max-width: 576px) {
+  body .container header .features-1 a, body .container header .features-2 a {
+    padding: 15px;
+  }
   body .container header .features-1 a .item, body .container header .features-2 a .item {
-    font-size: 31px;
+    font-size: 27px;
   }
   body .container header .features-1 a .price, body .container header .features-2 a .price {
-    font-size: 31px;
+    font-size: 20px;
   }
   body .container .menu {
     order: -1;
